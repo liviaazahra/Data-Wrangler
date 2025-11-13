@@ -21,18 +21,12 @@ This project focuses on cleaning, transforming, and preparing a real-world datas
 
 ## 🛠 Actions Performed
 - Inspected dataset (`info()`, `describe()`, missing values, duplicates)
-- Cleaned salary columns:
-  - Removed text, symbols, currency notations
-  - Standardized ranges (e.g., “5jt–7jt” → average numeric value)
-- Encoded categorical variables
-- Normalized inconsistent labels
-- Prepared final clean dataset for modeling
+- Adjusting Salary (renaming values)
 
 ---
 
 ## ⭐ Key Insights
 - Raw salary data contained multiple inconsistent formats → wrangling was essential.
-- Experience level and job title showed early correlation with salary ranges.
 - After cleaning, dataset became reliable for EDA, regression, and visualization.
 
 ---
